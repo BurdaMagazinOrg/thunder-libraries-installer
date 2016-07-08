@@ -4,7 +4,7 @@
   "description": "",
   "license": "MIT",
   "autoload": {
-    "psr-0": {"Thunder\\Composer\\": "src"}
+    "psr-4": {"Thunder\\Composer\\": "src"}
   },
   "extra": {
     "class": "Thunder\\Composer\\ThunderInstallerPlugin"
