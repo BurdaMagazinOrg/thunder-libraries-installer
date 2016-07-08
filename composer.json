@@ -1,0 +1,15 @@
+{
+  "name": "burdamagazinorg/thunder-libraries-installer",
+  "type": "composer-plugin",
+  "description": "",
+  "license": "MIT",
+  "autoload": {
+    "psr-0": {"Thunder\\Composer": "src/"}
+  },
+  "extra": {
+    "class": "Thunder\\Composer\\ThunderInstallerPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  }
+}
